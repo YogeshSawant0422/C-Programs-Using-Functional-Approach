@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdio.h>
 
-void Is_Prime_Number( );
+void Is_Prime_Number();
 
 int main()
 {
@@ -12,18 +12,25 @@ int main()
 }
 void Is_Prime_Number()
 {
-    int i = 0 ,Cnt = 0;
+    int i = 0 , j = 2 ;
+    printf("\n The Prime Number From 1 To 100 = \n ");
 
-    for( i= 1; i < 100 ; i++)
+    while(i<=100)
     {
-        if( i % i == 0 && i % 1 == 0 )
+        j = 2;
+        while( j <= i)
         {
-            break;
+            if( i % j == 0)
+            {
+                break;
+            }
+            j++;
         }
+        if(i == j)
+        {
+            printf("\n\t%d",j);
+        }
+        i++;
     }
-    if( i % i != 0)
-    {
-       printf("\n\t%d",i++);
-    }
-    return 0;
+    return ;
 }

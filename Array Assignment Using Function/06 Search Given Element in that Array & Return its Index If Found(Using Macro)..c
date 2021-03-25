@@ -8,7 +8,7 @@ void Display_Element(int[]);
 void Src_Element(int[]);
 int main()
 {
-    int Num[Size] ={} ;
+    int Num[Size] ={};
     Accept_Element(Num);
 
     printf("\n Back To Main ...\n Please Press Any Key To Display Elements....");

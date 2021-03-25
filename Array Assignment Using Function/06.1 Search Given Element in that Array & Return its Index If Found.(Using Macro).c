@@ -21,10 +21,10 @@ int main()
 
     getch();
 
-      printf("\n Enter A Number For Searching = ");
-     scanf("%d",&Src_Ele);
+    printf("\n Enter A Number For Searching = ");
+    scanf("%d",&Src_Ele);
 
-    Ret = Src_Element(Num,Src_Ele);
+    Ret = Src_Element(Num , Src_Ele);
 
     if(-1 == Ret)
     {
@@ -61,7 +61,7 @@ void Display_Element(int No[])
 int Src_Element(int Arr[],int Src_Ele)
 {
     int i = 0 ;
-    for( i=0; i< Size ;i++)
+    for( i=0; i < Size ;i++)
     {
         if(Src_Ele == Arr[i])
         {
@@ -70,7 +70,7 @@ int Src_Element(int Arr[],int Src_Ele)
     }
     if(Size == i)
     {
-      i = -1;
+      i = -1 ;
     }
-    return i;
+    return i ;
 }
