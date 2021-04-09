@@ -17,11 +17,8 @@ int main()
         }
         i++;
      }
-
     printf("\n  The Count Of  Vowels In Given String Is = %d  ",Cnt );
-
     printf("\n\n Thanks !!!!");
-
     getch();
     return 0;
 }
