@@ -20,6 +20,8 @@ int main()
     }
 
     printf("\n The Count Of Small Letters In Given String : %d",Small_Count);
+    printf("\n\n Thanks !!!!!");
+
     getch();
     return 0;
 }
