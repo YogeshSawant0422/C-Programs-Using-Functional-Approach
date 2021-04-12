@@ -12,13 +12,13 @@ int main()
     printf("\n Enter A String : ");
     gets(Str);
 
-      CopyString(&Str , &cStr);
+    CopyString(&Str , &cStr);
 
      printf("\n\n Given Entered String Is : %s",Str);
 
      printf("\n\n Copied Sting Is : %s ",cStr);
 
-     printf("\n Thanks !!!");
+     printf("\n\n Thanks !!!");
 
      getch();
      return 0;
