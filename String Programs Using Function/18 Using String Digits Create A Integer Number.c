@@ -21,7 +21,7 @@ int main()
 }
 int Int_Num(char cSrc[])
 {
-    int i = 0 , Num = 0;
+    int i = 0 , Num=0;
 
     while(cSrc[i] != '\0')
     {
