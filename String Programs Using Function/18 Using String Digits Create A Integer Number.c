@@ -14,7 +14,7 @@ int main()
 
     printf("\n Integer Number Created From Given String Is : %d",Ret);
 
-    printf("\n\n Thanks  !!!!");
+    printf("\n\n Thanks  !!!!!");
 
     getch();
     return 0;
