@@ -7,7 +7,7 @@ int main()
 {
     char Str[20] = {'\0'};
 
-    printf("\n Enter A String : ");
+    printf("\n Enter A String   : ");
     gets(Str);
 
    int Ret = Int_Num(Str);
