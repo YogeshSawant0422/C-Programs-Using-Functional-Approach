@@ -1,4 +1,4 @@
-//Using String Digits Create A Integer Number
+//Using String Digits Create A Integer Number .
 #include<stdio.h>
 #include<conio.h>
 
@@ -32,5 +32,6 @@ int Int_Num(char cSrc[])
         }
         i++;
     }
+
     return Num;
 }
