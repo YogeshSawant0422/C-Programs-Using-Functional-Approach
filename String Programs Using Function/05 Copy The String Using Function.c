@@ -1,4 +1,4 @@
-//Copy The String Using Function
+//Copy The String Using Function (Using While Loop)
 #include<stdio.h>
 #include<conio.h>
 
